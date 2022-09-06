@@ -48,7 +48,7 @@ def union_members(group1, group2):
 
 
 if __name__ == "__main__":
-    token = "d1c981bed1c981bed1c981be21d2d909f4dd1c9d1c981beb2c644b85086c847a943d9fb"  # Сервисный ключ доступа
+    token = ""  # Сервисный ключ доступа
     #session = vk.Session(access_token=token)  # Авторизация
     vk_api = vk.API(access_token=token)
     tester = get_members("poohprod")
